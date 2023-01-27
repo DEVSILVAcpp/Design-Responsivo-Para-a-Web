@@ -2,20 +2,25 @@ h1 {
     text-align: center;
 }
 
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
 .marker {
     height: 25px;
     width: 200px;
     margin: 10px auto;
 }
 
-.one {
-    background-color: red;
+.red {
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
 }
 
-.two {
-    background-color: green;
+.green {
+    background-color: #007F00;
 }
 
-.three {
-    background-color: blue;
+.blue {
+    background-color: hsl(240, 100%, 50%);
 }
