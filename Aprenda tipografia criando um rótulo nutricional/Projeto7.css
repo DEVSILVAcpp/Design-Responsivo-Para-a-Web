@@ -46,10 +46,36 @@ p {
     background-color: black;
 }
 
+.medium {
+    height: 5px;
+}
+
 .small-text {
     font-size: 0.85rem;
 }
 
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .calories-info h2 {
     margin: 0;
+}
+
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.calories-info span {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
+}
+
+.right {
+    justify-content: flex-end;
 }
